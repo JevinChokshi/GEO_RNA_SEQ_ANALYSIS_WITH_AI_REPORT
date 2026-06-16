@@ -1,0 +1,85 @@
+datasets:
+  GSE100587:
+    control_label: Mock
+    design: ~time_after_infection + disease_state
+    label_col: infection
+  GSE126848:
+    control_label: healthy
+    design: ~disease_state
+    label_col: disease
+  GSE135251:
+    control_label: Control
+    design: ~disease_state
+    label_col: disease
+  GSE141432:
+    control_label: Lean
+    design: ~disease_state
+    label_col: condition
+  GSE141498:
+    control_label: Neut
+    design: ~source_name + disease_state
+    label_col: cohort
+  GSE143319:
+    control_label: Pre
+    design: ~disease_state
+    label_col: condition
+  GSE153315:
+    control_label: healthy control
+    design: ~disease_state
+    label_col: disease
+  GSE154881:
+    control_label: Healthy volunteer
+    design: ~disease_state
+    label_col: disease_state
+  GSE156072:
+    control_label: Uninfected
+    design: ~cell_type + disease_state
+    label_col: infection
+  GSE159984:
+    control_label: non-diabetic
+    design: ~disease_state
+    label_col: patient_diagnosis
+  GSE162653:
+    control_label: Normal weight
+    design: ~disease_state
+    label_col: bmi_group
+  GSE164416:
+    control_label: ND
+    design: ~disease_state
+    label_col: diabetes_status
+  GSE166047:
+    control_label: "24.3 \xC2\xB1 0.9 kg/m2"
+    design: ~disease_state
+    label_col: bmi
+  GSE179455:
+    control_label: Lean
+    design: ~disease_state
+    label_col: metabolic_status
+  GSE180350:
+    control_label: Control
+    design: disease_state
+    label_col: treatment
+  GSE184050:
+    control_label: control
+    design: ~disease_state
+    label_col: disease_state
+  GSE185011:
+    control_label: Peripheral blood_HC
+    design: ~disease_state
+    label_col: title
+  GSE199911:
+    control_label: HIV non-infected
+    design: ~disease_state
+    label_col: disease_state
+  GSE202295:
+    control_label: NGT
+    design: ~disease_state
+    label_col: diagnosis
+  GSE232914:
+    control_label: HIVN
+    design: ~disease_state
+    label_col: paticipant_phenotype
+  GSE81965:
+    control_label: ngt
+    design: ~disease_state
+    label_col: disease

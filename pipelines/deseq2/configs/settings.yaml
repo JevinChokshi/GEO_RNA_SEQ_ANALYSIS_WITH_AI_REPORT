@@ -1,0 +1,11 @@
+deseq2:
+  disease: HIV
+  log2fc_threshold: 1.5
+  min_gene_count: 10
+  min_samples: 2
+  padj_threshold: 0.05
+directories:
+  logs: results/deseq2/logs
+  mapper_data: data/Human.GRCh38.p13.annot.tsv
+  raw_data: data/raw/geo
+  results: results/deseq2
